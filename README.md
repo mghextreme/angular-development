@@ -37,6 +37,7 @@ As the organizer of the tournament, I want to see the upcoming matches, set the 
   - Link to set final score
 - Set score
   - Set the number of goals on each side
+  - Ability to randomize score (using [API](https://www.random.org/integers/?num=2&min=0&max=5&col=1&base=10&format=plain) - see [Rules and Tips](#rules-and-tips))
   - Update standings
 - Standings
   - Group grids
@@ -58,6 +59,7 @@ As the organizer of the tournament, I want to see the upcoming matches, set the 
 - Add all your code to the `src/` folder
 - Use [git](https://git-scm.com/) for versioning. Commit often
 - Use [Angular](https://angular.io/) (6 or later) as your JavaScript framework
+  - Use at least one Async method for an API method call. Suggestion: Random score generator getting data from [this API](https://www.random.org/integers/?num=2&min=0&max=5&col=1&base=10&format=plain)
 - Either use [Angular's native testing](https://angular.io/guide/testing) or a popular JS test framework, such as [Mocha](https://mochajs.org/), [Jest](https://jestjs.io/) or [Jasmine](https://jasmine.github.io/)
 - You are allowed to use other libraries and framework for styling, features, etc... Such as...
   - [npm](https://www.npmjs.com/)

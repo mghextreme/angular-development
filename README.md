@@ -48,10 +48,20 @@ As the organizer of the tournament, I want to see the upcoming matches, set the 
 - Automated tests
   - Feel free to create the tests you find more suiting
 
+### Screens
+
+Feel free to create the structure of screens that you want, will be good to have your own touch. But if you need some guidance, consider these items:
+
+- List of matches _(results and upcoming)_
+- Match page / Set score _(may also be a modal form)_
+- Standings _(groups and playoffs)_
+
 ## What NOT to do
 
-- You don't need to create a Form for registering teams or matches, feel free to add 8 teams, split them in 2 groups, add the matches, dates, etc.
-- Don't worry about the specifics of tournament rules, just define a rule in case of a tie in groups and in case of a tie in playoffs
+- **Full CRUD:** You don't need to create a Form for registering teams or matches, feel free to add 8 teams, split them in 2 groups, add the matches, dates, etc.
+- **Specific business rules:** Don't worry about the specifics of tournament rules, just define a rule in case of a tie in groups and in case of a tie in playoffs
+- **Responsiveness:** is not important here. If it works well on a cellphone: good, but it is going to be reviewed on a computer
+- **Documentation:** is not a part of the test here, just worry about development and testing
 
 ## Rules and Tips
 
